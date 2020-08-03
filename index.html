@@ -1,65 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mid Assignment</title>
-    <style>
-        .container {
-          padding: 10px 10px 0 0;
-        }
-        .row {
-          /* Bikin menunya centerilize & rata tengah semua */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        a {
-          margin-left: 10px;
-          margin-right: 10px;
-        }
-        #home {
-          padding-top: 200px;
-        }
-        #about {
-          padding-top: 200px;
-        }
-        #portfolio {
-          padding-top: 200px;
-        }
-        #blog {
-          padding-top: 200px;
-        }
-        
-        #team {
-          padding-top: 200px;
-        }
-        
-        #contact {
-          padding-top: 200px;
-        }
+<title>Mid Assignment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-      </style>
-    </head>
-    <body>
-      <div class="container">
-        <div class="row">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#blog">Blog</a>
-          <a href="#team">Team</a>
-          <a href="#contact">Contact</a>
-        </div>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(102, 18, 18);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 100px;
   
-        <div id="home">Home</div>
-        <div id="about">About</div>
-        <div id="portfolio">Portfolio</div>
-        <div id="blog">Blog</div>
-        <div id="team">Team</div>
-        <div id="contact">Contact</div>
-      </div>
-    
+}
+
+#about, #portfolio, #blog  {
+    margin-top: 100px ;
+}
+
+#team, #contact {
+    margin-top: 300px ;
+}
+
+/* Style the footer */
+.footer {
+  background-color: rgb(102, 18, 18);
+  color: #ddd;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#home, #about, #portfolio, #blog, #team, #contact {
+  border: 2px ;
+  padding: 25px;
+  background: url(https://lh3.googleusercontent.com/proxy/ZSs4NT4eBx38ALuOCMvEuV8FhZO5H6wLnVFsALnO1OCfNNJLvyit3eatW59DNQ94hR3jonrYVEI3CUWYDRXFBxS8RhZGbasOQERyoKY2mVdCtZmvbw);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#home p {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#imgAbout {
+  width: 550px;
+  position: absolute;
+  top: 70%;
+  right: 60%;
+  opacity: 0.2;
+}
+
+#imgBlog1 {
+  position: absolute;
+  top: 215%;
+  right: 74%;
+}
+
+#imgBlog1:hover {
+  opacity: 0.7;
+}
+
+#imgBlog2 {
+  position: absolute;
+  top: 215%;
+  right: 50%;
+}
+
+#imgBlog2:hover {
+  opacity: 0.7;
+}
+
+#imgBlog3 {
+  position: absolute;
+  top: 215%;
+  right: 26%;
+}
+
+#imgBlog3:hover {
+  opacity: 0.7;
+}
+
+#imgTeam1 {
+  position: absolute;
+  top: 280%;
+  right: 84%;
+  border-radius: 50%;
+}
+
+#imgTeam1:hover {
+  opacity: 0.7;
+}
+
+#imgTeam2 {
+  position: absolute;
+  top: 280%;
+  right: 60%;
+  border-radius: 50%;
+}
+
+#imgTeam2:hover {
+  opacity: 0.7;
+}
+
+#imgTeam3 {
+  position: absolute;
+  top: 280%;
+  right: 36%;
+  border-radius: 50%;
+}
+
+#imgTeam3:hover {
+  opacity: 0.7;
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#contact">Contact</a>
+  <a href="#team">Team</a>
+  <a href="#blog">Blog</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#about">About</a>
+  <a href="#home">Home</a>
+</div>
+
+<div class="content">
+
+  <div id="home"> <h2>Home</h2> </div>
+  <p>Terus memantapkan diri menjadi yang terdepan dalam arus perkembangan teknologi dan informasi. Kami tak hentinya berbenah untuk maju melalui transformasi, inovasi, keamanan data, dan sumber daya manusia yang unggul. Memberikan makna bagi kehidupan yang lebih baik.</p>
   
-  </body>
-  </html>
+  <div id="about"> <h2>About</h2> </div>
+  <div id="isiAbout">
+    <p> <h4>1. Trust</h4>
+      Build confidence and prejudice in sincere and open relationships based on reliability.
+      <h4>2. Integrity</h4>
+      Conduct commendable, maintain dignity and uphold professional ethics.
+      <h4>3. Professionalism</h4>
+      Work thoroughly and accurately on the basis of the best competencies with full responsibility.
+      <h4>4. Customer Focus</h4>
+      Always place internal and external customers as the focus to build positive experiences that are mutually beneficial and grow sustainably.
+      <h4>5. Excellence</h4>
+      Always strive for excellence towards perfection which is a form of love and pride as a mandiri person.</p>
+  </div>
+  
+  <div id="portfolio"> <h2>Portfolio</h2> </div>
+  <p> We continuously improve our services and provide comprehensive treasury solutions for our customers through our 17 dealing rooms and other channels. <br> <br>
+
+      Supported with more than 2000 branches both domestic and overseas, we are able to give competitive price to our customers. <br><br>
+
+      We provides various treasury solutions that can be tailored to fulfill your needs, such as:</p>
+  
+  <div id="blog"> <h2>Blog</h2> </div>
+  <p>Follow Our Journey to Impecable Horizon</p>
+  
+  <div id="team"> <h2>Team</h2> </div>
+  <p>Meet Our Team</p>
+  
+  <div id="contact"> <h2>Contact</h2> </div>
+  <p> <h4>Contact Us</h4> </p>
+  <p> <i class="fas fa-cloud"></i> Twitter </p>
+  <p> <i class="fas fa-heart"></i> Facebook </p>
+  <p> <i class="fas fa-car"></i> Instagram </p>
+
+ 
+
+
+
+</div>
+
+<img id="imgAbout" src="Image\Landscape-Company-Profile-Template-Mockup-7.jpg">
+
+<a href="https://www.lonelyplanet.com/articles/covid-end-of-the-city-break" target="_blank">
+  <img id="imgBlog1" width="300" height="150" border="0" align="center"  src="Image\Blog 1.jpg"/>
+</a>
+
+<a href="https://www.lonelyplanet.com/articles/best-bbq-usa" target="_blank">
+  <img id="imgBlog2" width="300" height="150" border="0" align="center"  src="Image\Blog 2.jpg"/>
+</a>
+
+<a href="https://www.lonelyplanet.com/articles/stonehenge-stones-origin" target="_blank">
+  <img id="imgBlog3" width="300" height="150" border="0" align="center"  src="Image\Blog 3.jpg"/>
+</a>
+
+<a href="https://twitter.com/artist_rama" target="_blank">
+  <img id="imgTeam1" width="150" height="150" border="0" align="center"  src="Image\Team 1.jpg"/>
+</a>
+
+<a href="https://twitter.com/JJWatt" target="_blank">
+  <img id="imgTeam2" width="150" height="150" border="0" align="center"  src="Image\Team 2.jpg"/>
+</a>
+
+<a href="https://twitter.com/JHarden13" target="_blank">
+  <img id="imgTeam3" width="150" height="150" border="0" align="center"  src="Image\Team 3.jpg"/>
+</a>
+
+<div class="footer">
+  <p><h1>"To Infinity and Beyond"</h1></p>
+</div>
+
+</body>
+</html>
